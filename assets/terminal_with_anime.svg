@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530">
+  <defs>
+    <style>
+      .terminal-bg { fill: #0d1117; }
+      .terminal-text { fill: #87CEEB; font-family: 'Courier New', monospace; font-size: 14px; }
+      .terminal-key { fill: #87CEEB; font-family: 'Courier New', monospace; font-size: 14px; }
+      .terminal-value { fill: #4682B4; font-family: 'Courier New', monospace; font-size: 14px; }
+      .terminal-dots { fill: #616e7f; font-family: 'Courier New', monospace; font-size: 14px; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect class="terminal-bg" width="985" height="530" rx="15"/>
+  
+  <!-- Custom Anime Character -->
+  <g transform="translate(30, 60)">
+    <!-- Character Background -->
+    <rect style="fill:#1a1a2e;stroke:#87CEEB;stroke-width:2;" width="320" height="400" rx="15"/>
+
+    <!-- Shadow -->
+    <ellipse style="fill:#000000;opacity:0.2;" cx="160" cy="380" rx="80" ry="8"/>
+
+    <!-- Hair (Sky Blue theme) -->
+    <g>
+      <!-- Main hair -->
+      <path style="fill:#4682B4;" d="M60,120 Q80,60 120,80 Q140,40 160,60 Q180,40 200,60 Q220,40 240,80 Q260,60 280,120 Q270,100 250,110 Q230,90 210,100 Q190,80 170,90 Q150,80 130,100 Q110,90 90,110 Q70,100 60,120"/>
+
+      <!-- Hair highlights -->
+      <path style="fill:#87CEEB;opacity:0.7;" d="M90,90 Q110,70 130,85 Q150,65 170,80 Q190,65 210,85 Q230,70 250,90"/>
+
+      <!-- Side hair strands -->
+      <ellipse style="fill:#4682B4;" cx="50" cy="140" rx="15" ry="40" transform="rotate(-20 50 140)"/>
+      <ellipse style="fill:#4682B4;" cx="270" cy="140" rx="15" ry="40" transform="rotate(20 270 140)"/>
+    </g>
+
+    <!-- Head -->
+    <ellipse style="fill:#FDBCB4;" cx="160" cy="160" rx="60" ry="70"/>
+
+    <!-- Eyes -->
+    <g>
+      <!-- Left eye -->
+      <ellipse style="fill:#FFFFFF;" cx="140" cy="145" rx="18" ry="25"/>
+      <ellipse style="fill:#4682B4;" cx="140" cy="150" rx="12" ry="20"/>
+      <ellipse style="fill:#000000;" cx="140" cy="155" rx="8" ry="15"/>
+      <ellipse style="fill:#FFFFFF;" cx="143" cy="148" rx="4" ry="6"/>
+      <ellipse style="fill:#FFFFFF;" cx="145" cy="152" rx="2" ry="3"/>
+
+      <!-- Right eye -->
+      <ellipse style="fill:#FFFFFF;" cx="180" cy="145" rx="18" ry="25"/>
+      <ellipse style="fill:#4682B4;" cx="180" cy="150" rx="12" ry="20"/>
+      <ellipse style="fill:#000000;" cx="180" cy="155" rx="8" ry="15"/>
+      <ellipse style="fill:#FFFFFF;" cx="183" cy="148" rx="4" ry="6"/>
+      <ellipse style="fill:#FFFFFF;" cx="185" cy="152" rx="2" ry="3"/>
+
+      <!-- Eyebrows -->
+      <path style="fill:#4682B4;" d="M125,125 Q140,120 155,125 Q150,128 140,130 Q130,128 125,125"/>
+      <path style="fill:#4682B4;" d="M165,125 Q180,120 195,125 Q190,128 180,130 Q170,128 165,125"/>
+    </g>
+
+    <!-- Nose -->
+    <ellipse style="fill:#F4A7A7;" cx="160" cy="175" rx="2" ry="4"/>
+
+    <!-- Mouth -->
+    <path style="fill:#FF6B9D;" d="M150,195 Q160,205 170,195 Q165,200 160,200 Q155,200 150,195"/>
+
+    <!-- Blush -->
+    <ellipse style="fill:#FF6B9D;opacity:0.4;" cx="115" cy="170" rx="12" ry="8"/>
+    <ellipse style="fill:#FF6B9D;opacity:0.4;" cx="205" cy="170" rx="12" ry="8"/>
+
+    <!-- Neck -->
+    <rect style="fill:#FDBCB4;" x="145" y="220" width="30" height="20"/>
+
+    <!-- Body (Hoodie) -->
+    <g>
+      <!-- Main hoodie -->
+      <rect style="fill:#87CEEB;" x="120" y="240" width="80" height="100" rx="10"/>
+
+      <!-- Hoodie details -->
+      <rect style="fill:#4682B4;" x="125" y="245" width="70" height="5" rx="2"/>
+      <circle style="fill:#4682B4;" cx="135" cy="260" r="3"/>
+      <circle style="fill:#4682B4;" cx="185" cy="260" r="3"/>
+
+      <!-- Hood -->
+      <path style="fill:#87CEEB;" d="M110,240 Q160,220 210,240 Q200,235 180,235 Q160,230 140,235 Q120,235 110,240"/>
+    </g>
+
+    <!-- Arms -->
+    <ellipse style="fill:#87CEEB;" cx="90" cy="280" rx="18" ry="45"/>
+    <ellipse style="fill:#87CEEB;" cx="230" cy="280" rx="18" ry="45"/>
+
+    <!-- Hands -->
+    <circle style="fill:#FDBCB4;" cx="90" cy="325" r="12"/>
+    <circle style="fill:#FDBCB4;" cx="230" cy="325" r="12"/>
+
+    <!-- Legs -->
+    <rect style="fill:#2C3E50;" x="135" y="340" width="20" height="35" rx="10"/>
+    <rect style="fill:#2C3E50;" x="165" y="340" width="20" height="35" rx="10"/>
+
+    <!-- Shoes -->
+    <ellipse style="fill:#000000;" cx="145" cy="380" rx="15" ry="8"/>
+    <ellipse style="fill:#000000;" cx="175" cy="380" rx="15" ry="8"/>
+
+    <!-- Coding symbols floating around -->
+    <text style="fill:#87CEEB;font-family:monospace;font-size:12px;opacity:0.6;" x="280" y="100">&lt;/&gt;</text>
+    <text style="fill:#4682B4;font-family:monospace;font-size:10px;opacity:0.6;" x="20" y="200">{}</text>
+    <text style="fill:#87CEEB;font-family:monospace;font-size:8px;opacity:0.6;" x="290" y="300">AI</text>
+    <text style="fill:#4682B4;font-family:monospace;font-size:10px;opacity:0.6;" x="10" y="350">λ</text>
+  </g>
+  
+  <!-- Terminal Info -->
+  <text class="terminal-text" x="380" y="40">
+    <tspan x="380" y="40">cautious-sea</tspan>
+    <tspan class="terminal-dots"> ——————————————————————————————————————————</tspan>
+  </text>
+  
+  <text x="380" y="70">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Role</tspan>
+    <tspan class="terminal-dots">: ........................ </tspan>
+    <tspan class="terminal-value">AIML Student</tspan>
+  </text>
+  
+  <text x="380" y="90">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Focus</tspan>
+    <tspan class="terminal-dots">: ....................... </tspan>
+    <tspan class="terminal-value">AI Agents for Full-Stack Teams</tspan>
+  </text>
+  
+  <text x="380" y="110">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Learning</tspan>
+    <tspan class="terminal-dots">: .................... </tspan>
+    <tspan class="terminal-value">AI/ML Technologies</tspan>
+  </text>
+  
+  <text x="380" y="130">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Status</tspan>
+    <tspan class="terminal-dots">: ......................... </tspan>
+    <tspan class="terminal-value">Student</tspan>
+  </text>
+  
+  <text x="380" y="150">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">IDE</tspan>
+    <tspan class="terminal-dots">: ........................ </tspan>
+    <tspan class="terminal-value">VSCode, PyCharm, IntelliJ</tspan>
+  </text>
+  
+  <text x="380" y="190">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Languages.Programming</tspan>
+    <tspan class="terminal-dots">: ..... </tspan>
+    <tspan class="terminal-value">Python, Java, C++, JavaScript</tspan>
+  </text>
+  
+  <text x="380" y="210">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Languages.Web</tspan>
+    <tspan class="terminal-dots">: ................ </tspan>
+    <tspan class="terminal-value">React, Node.js, Next.js, HTML, CSS</tspan>
+  </text>
+  
+  <text x="380" y="230">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Technologies</tspan>
+    <tspan class="terminal-dots">: ................. </tspan>
+    <tspan class="terminal-value">Supabase, Git, AI/ML</tspan>
+  </text>
+  
+  <text x="380" y="270">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Interests.AI</tspan>
+    <tspan class="terminal-dots">: ............. </tspan>
+    <tspan class="terminal-value">Machine Learning, AI Agents</tspan>
+  </text>
+  
+  <text x="380" y="290">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Interests.Development</tspan>
+    <tspan class="terminal-dots">: ...... </tspan>
+    <tspan class="terminal-value">Full-Stack, Automation</tspan>
+  </text>
+  
+  <!-- Contact Section -->
+  <text class="terminal-text" x="380" y="330">
+    <tspan>- Contact</tspan>
+    <tspan class="terminal-dots"> ——————————————————————————————————————————————</tspan>
+  </text>
+  
+  <text x="380" y="350">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">GitHub</tspan>
+    <tspan class="terminal-dots">: ............................ </tspan>
+    <tspan class="terminal-value">cautious-sea</tspan>
+  </text>
+  
+  <text x="380" y="370">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">LinkedIn</tspan>
+    <tspan class="terminal-dots">: ........................... </tspan>
+    <tspan class="terminal-value">cautious-sea</tspan>
+  </text>
+  
+  <text x="380" y="390">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">YouTube</tspan>
+    <tspan class="terminal-dots">: ............................ </tspan>
+    <tspan class="terminal-value">@cautious-sea</tspan>
+  </text>
+  
+  <text x="380" y="410">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Instagram</tspan>
+    <tspan class="terminal-dots">: .......................... </tspan>
+    <tspan class="terminal-value">cautious-sea</tspan>
+  </text>
+  
+  <text x="380" y="430">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Medium</tspan>
+    <tspan class="terminal-dots">: .............................. </tspan>
+    <tspan class="terminal-value">@cautious-sea</tspan>
+  </text>
+  
+  <!-- GitHub Stats Section -->
+  <text class="terminal-text" x="380" y="470">
+    <tspan>- GitHub Stats</tspan>
+    <tspan class="terminal-dots"> —————————————————————————————————————————</tspan>
+  </text>
+  
+  <text x="380" y="490">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Repos</tspan>
+    <tspan class="terminal-dots">: .... </tspan>
+    <tspan class="terminal-value">Loading...</tspan>
+    <tspan class="terminal-dots"> | </tspan>
+    <tspan class="terminal-key">Stars</tspan>
+    <tspan class="terminal-dots">: ........... </tspan>
+    <tspan class="terminal-value">Loading...</tspan>
+  </text>
+  
+  <text x="380" y="510">
+    <tspan class="terminal-dots">. </tspan>
+    <tspan class="terminal-key">Commits</tspan>
+    <tspan class="terminal-dots">: ................. </tspan>
+    <tspan class="terminal-value">Loading...</tspan>
+    <tspan class="terminal-dots"> | </tspan>
+    <tspan class="terminal-key">Followers</tspan>
+    <tspan class="terminal-dots">: ....... </tspan>
+    <tspan class="terminal-value">Loading...</tspan>
+  </text>
+</svg>
