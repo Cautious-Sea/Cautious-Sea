@@ -84,3 +84,6 @@ As an AIML student passionate about artificial intelligence and machine learning
 <!--
      Thanks for being my guest <3
 -->
+
+
+![snake gif](https://github.com/Cautious-Sea/Cautious-Sea/blob/output/github-snake-dark.svg)
